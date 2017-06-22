@@ -23,9 +23,9 @@ param([String]$debugfile = "");
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\common\bin\cspybat" -f "C:\Users\hp\OneDrive\demo\stm32f4_dis\demo_NULEO144INTHERNET\EWARM\settings\demo_NULEO144INTHERNET.demo_NULEO144INTHERNET.general.xcl" --backend -f "C:\Users\hp\OneDrive\demo\stm32f4_dis\demo_NULEO144INTHERNET\EWARM\settings\demo_NULEO144INTHERNET.demo_NULEO144INTHERNET.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\common\bin\cspybat" -f "C:\Users\hp\OneDrive\demo\stm32f4_dis\demo_NULEO144INTHERNET\nguyen_dinh\EWARM\settings\demo_NULEO144INTHERNET.demo_NULEO144INTHERNET.general.xcl" --backend -f "C:\Users\hp\OneDrive\demo\stm32f4_dis\demo_NULEO144INTHERNET\nguyen_dinh\EWARM\settings\demo_NULEO144INTHERNET.demo_NULEO144INTHERNET.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\common\bin\cspybat" -f "C:\Users\hp\OneDrive\demo\stm32f4_dis\demo_NULEO144INTHERNET\EWARM\settings\demo_NULEO144INTHERNET.demo_NULEO144INTHERNET.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\hp\OneDrive\demo\stm32f4_dis\demo_NULEO144INTHERNET\EWARM\settings\demo_NULEO144INTHERNET.demo_NULEO144INTHERNET.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\common\bin\cspybat" -f "C:\Users\hp\OneDrive\demo\stm32f4_dis\demo_NULEO144INTHERNET\nguyen_dinh\EWARM\settings\demo_NULEO144INTHERNET.demo_NULEO144INTHERNET.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\hp\OneDrive\demo\stm32f4_dis\demo_NULEO144INTHERNET\nguyen_dinh\EWARM\settings\demo_NULEO144INTHERNET.demo_NULEO144INTHERNET.driver.xcl" 
 }
